@@ -40,16 +40,17 @@
         <div class="flex gap-10">
 
             <!--Registreties, login, logout-->
-            <div>
+            <div class="flex gap-2">
                 
                     <div class="flex gap-4">
                         <a href="/registrationform" class="border-r border-black px-4">Reģistrēties</a>
                         <a href="/loginform">Pieslēgties</a>
                     </div>
                 
+                    <!--Add middleware-->
                     <form id="logout-form" action="{{ route('logout') }}" method="POST">
                         @csrf
-                        <button type="submit">Atslēgties</button>
+                        <button type="submit">Iziet</button>
                     </form>
                 
             </div>

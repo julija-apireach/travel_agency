@@ -45,6 +45,16 @@ Route::get('/trips/avio', function () {
     return view('trips/avio');
 })->name('avio');
 
+//kontakti
+Route::get('/kontakti', function () {
+    return view('livewire/contacts');
+})->name('kontakti');
+
+//mes iesakam
+Route::get('/mes-iesakam', function () {
+    return view('livewire/recommendations');
+})->name('mes-iesakam');
+
 //Registration form view
 Route::get('/registrationform', [AgencyUserController::class, 'registrationForm'])
 ->name('registration');

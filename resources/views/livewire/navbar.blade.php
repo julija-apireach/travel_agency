@@ -14,10 +14,11 @@
             <button class="flex gap-2 items-center focus:outline-none" onclick="toggleDropdown()">Ceļojumi <img
                     src="{{ asset('images/icons/small-arrow-down.svg') }}"></button>
 
-            <div id="dropdown" class="hidden absolute z-20 bg-white shadow-lg mt-2 pb-12 w-72">
-                <div class="flex justify-end p-4">
+            <div id="dropdown" class="hidden absolute z-20 bg-white shadow-lg mt-2 pb-6 w-72">
+                <div class="absolute right-4 top-2 flex justify-end">
                     <button onclick="closeDropdown()" class="text-gray-800">&times;</button>
                 </div>
+                <div class="pt-6">
                 <a href="{{ route('kruizi') }}" class="block px-4 py-2 hover:bg-gray-200">Kruīzi</a>
                 <a href="{{ route('exotic') }}" class="block px-4 py-2 hover:bg-gray-200">Eksotiskie ceļojumi</a>
                 <a href="{{ route('relax') }}" class="block px-4 py-2 hover:bg-gray-200">Atpūtas braucieni</a>
@@ -25,12 +26,13 @@
                 <a href="{{ route('excurtion') }}" class="block px-4 py-2 hover:bg-gray-200">Ekskursiju ceļojumi</a>
                 <a href="{{ route('avio') }}" class="block px-4 py-2 hover:bg-gray-200">Avio ceļojumi</a>
             </div>
+            </div>
         </div>
 
         <a href="#">Blogs</a>
         <a href="#">Atsauksmes</a>
-        <a href="#">Kontakti</a>
-        <a href="#">Mēs iesakam</a>
+        <a href="/kontakti">Kontakti</a>
+        <a href="/mes-iesakam">Mēs iesakam</a>
         <a href="/mana-rezervacija" class="hover:border border-black px-3 py-3 rounded-full">Mana rezervācija</a>
     </div>
 
