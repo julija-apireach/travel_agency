@@ -15,12 +15,10 @@
                     src="{{ asset('images/icons/small-arrow-down.svg') }}"></button>
 
             <div id="dropdown" class="hidden absolute z-20 bg-white shadow-lg mt-2 pb-12 w-72">
-                <div class="flex justify-between">
-                    <a href="{{ route('kruizi') }}" class="block px-4 py-2 hover:bg-gray-200">Kruīzi</a>
-                    <div class="flex justify-between items-center px-4 py-2">
-                        <button onclick="closeDropdown()" class="text-gray-800">&times;</button>
-                    </div>
+                <div class="flex justify-end p-4">
+                    <button onclick="closeDropdown()" class="text-gray-800">&times;</button>
                 </div>
+                <a href="{{ route('kruizi') }}" class="block px-4 py-2 hover:bg-gray-200">Kruīzi</a>
                 <a href="{{ route('exotic') }}" class="block px-4 py-2 hover:bg-gray-200">Eksotiskie ceļojumi</a>
                 <a href="{{ route('relax') }}" class="block px-4 py-2 hover:bg-gray-200">Atpūtas braucieni</a>
                 <a href="{{ route('ski') }}" class="block px-4 py-2 hover:bg-gray-200">Slēpošana</a>
@@ -53,9 +51,9 @@
         }
 
         function closeDropdown() {
-        let dropdown = document.getElementById('dropdown');
-        dropdown.classList.add('hidden');
-    }
+            let dropdown = document.getElementById('dropdown');
+            dropdown.classList.add('hidden');
+        }
     </script>
 
 </div>
