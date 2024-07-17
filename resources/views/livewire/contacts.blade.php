@@ -21,8 +21,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="text-center py-2 text-xl font-medium">Laiks ir dārgākā vērtība. </br>
-                                    Dāvini to sev un saviem mīļajiem!</p>
+                                <p class="text-center py-2 text-xl font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </div>
 
                             <form>
@@ -41,7 +40,7 @@
                                 <div class="flex flex-col space-y-2 pb-2">
                                     <label for="message" class="font-bold text-base">Ziņa</label>
                                     <textarea id="message" placeholder="Rakstiet ziņu mums....."
-                                        class="w-full h-32 px-4 py-2 borderbg-[#fffbeb] border-slate-200 rounded-sm"></textarea>
+                                        class="w-full h-32 px-4 py-2 border bg-[#fffbeb] border-slate-200 rounded-sm"></textarea>
                                 </div>
 
                                 <button type="submit"
@@ -55,9 +54,9 @@
                                 <img src="{{ asset('images/icons/horizontal-line.svg') }}">
                                 <h3>Sazinaties</h3>
                             </dt>
-                            <dd>Sazinieties ar mums 24/7. Mēs Jums izveidosim
+                            <dd class="text-xl">Sazinieties ar mums 24/7. Mēs Jums izveidosim
                                 Jums visērtako ceļojumu paketi</dd>
-                            <dd>
+                            <dd class="text-xl">
                                 <p>Tālrunis: +37129702870</p>
                                 <p>Epasts: info@digitalweb.lv</p>
                                 <p>Adrese: Ogre, Tinūžu iela 10</p>
