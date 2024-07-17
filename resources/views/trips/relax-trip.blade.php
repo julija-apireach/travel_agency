@@ -1,7 +1,7 @@
 <x-guest-layout>
     @section('hero')
         <!--Large and medium screen-->
-        <div class="hidden border md:flex flex-col md:gap-8 md:px-8 lg:px-12 xl:px-64 md:py-8 lg:py-12">
+        <div class="hidden md:flex flex-col md:gap-8 md:px-8 lg:px-12 xl:px-64 md:py-8 lg:py-12">
             <h3 class="text-base md:text-2xl lg:text-4xl font-medium md:font-normal">Atpūtas braucieni</h3>
             <div class="md:grid grid-cols-3 gap-4">
                 <!--Filts-->
@@ -118,9 +118,6 @@
                 @endfor
                 
             </div>
-
-
-
         </div>
     @endsection
 </x-guest-layout>
