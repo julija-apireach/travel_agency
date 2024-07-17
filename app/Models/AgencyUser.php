@@ -17,7 +17,7 @@ class AgencyUser extends Authenticatable
     ];
 
     protected $hidden = [
-        'password', 'remember toke',
+        'password', 'remember token',
     ];
 
     protected $casts = [

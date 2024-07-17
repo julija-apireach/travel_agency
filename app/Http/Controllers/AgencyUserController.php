@@ -13,7 +13,7 @@ class AgencyUserController extends Controller
 {
      // Show Register/Create Form
      public function registrationForm() {
-        return view('registration');
+        return view('user-form/registration');
     }
 
     // Create New User
@@ -65,7 +65,7 @@ class AgencyUserController extends Controller
 
     // Show Login Form
     public function loginForm() {
-        return view('login');
+        return view('user-form/login');
     }
 
     // Authenticate User/ Login

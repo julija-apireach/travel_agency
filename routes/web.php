@@ -1,10 +1,12 @@
 <?php
 
+use App\Http\Livewire\Reviews;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\LoginController;
 use App\Models\AgencyUser;
 use App\Http\Controllers\AgencyUserController;
+use App\Http\Controllers\ReviewController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -45,10 +47,8 @@ Route::get('/trips/avio', function () {
     return view('trips/avio');
 })->name('avio');
 
-//Atsauksmes
-Route::get('/atsauksmes', function () {
-    return view('livewire/review');
-})->name('atsauksmes');
+//Atsauksmes - show all
+Route::get('/atsauksmes', [ReviewController::class, 'index'])->name('atsauksmes');
 
 //kontakti
 Route::get('/kontakti', function () {
