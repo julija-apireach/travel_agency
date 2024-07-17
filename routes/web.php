@@ -45,6 +45,11 @@ Route::get('/trips/avio', function () {
     return view('trips/avio');
 })->name('avio');
 
+//Atsauksmes
+Route::get('/atsauksmes', function () {
+    return view('livewire/review');
+})->name('atsauksmes');
+
 //kontakti
 Route::get('/kontakti', function () {
     return view('livewire/contacts');

@@ -30,7 +30,7 @@
         </div>
 
         <a href="#">Blogs</a>
-        <a href="#">Atsauksmes</a>
+        <a href="/atsauksmes">Atsauksmes</a>
         <a href="/kontakti">Kontakti</a>
         <a href="/mes-iesakam">Mēs iesakam</a>
         <a href="/mana-rezervacija" class="hover:border border-black px-3 py-3 rounded-full">Mana rezervācija</a>
