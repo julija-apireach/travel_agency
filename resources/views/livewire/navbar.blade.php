@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <a href="#">Blogs</a>
+        <a href="/blog">Blogs</a>
         <a href="/atsauksmes">Atsauksmes</a>
         <a href="/kontakti">Kontakti</a>
         <a href="/mes-iesakam">Mēs iesakam</a>

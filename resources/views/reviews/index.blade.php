@@ -40,7 +40,7 @@
                     @foreach ($reviews as $review)
                         <!--Atsauksmju box-1-->
                         <div
-                            class="mb-4 break-inside-avoid-column flex flex-col gap-2 p-4 border border-red-100 md:border-yellow-200 shadow-sm md:shadow-xl shadow-yellow-200">
+                            class="mb-4 break-inside-avoid-column flex flex-col gap-2 p-4 border border-red-100 md:border-yellow-200 shadow-sm md:shadow-lg md:shadow-yellow-200">
                             <!--Foto, vards uzvards-->
                             <div class="flex gap-6">
                                 <img src="{{ $review->photo }}" alt="Foto">
@@ -71,11 +71,11 @@
                     @endforeach
                 </div>
 
-                <!-- Pagination links -->
+                <!-- Pagination links - if need
                 <div class="mt-6">
-                    {{ $reviews->links('pagination::tailwind') }}
+                    {{-- {{ $reviews->links('pagination::tailwind') }} --}}
                 </div>
-
+                 -->
             </div>
         </div>
     @endsection

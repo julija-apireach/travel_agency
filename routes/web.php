@@ -47,6 +47,11 @@ Route::get('/trips/avio', function () {
     return view('trips/avio');
 })->name('avio');
 
+//blogs
+Route::get('/blog', function () {
+    return view('livewire/blog');
+})->name('blog');
+
 //Atsauksmes - show all
 Route::get('/atsauksmes', [ReviewController::class, 'index'])->name('atsauksmes');
 
