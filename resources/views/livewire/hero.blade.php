@@ -20,7 +20,8 @@
         </div>
 
         <!--Pop up box-->
-        <div id="popup" class="hidden absolute z-20 top-0 right-40 w-96 p-3 bg-transperant">
+        <!--need to edit pop-up box location on page-->
+        <div id="popup" class="hidden absolute z-20 top-0 right-0 w-96 p-3 bg-transperant">
 
             <!--Close-->
             <div class="relative">

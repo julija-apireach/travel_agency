@@ -12,6 +12,42 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+    <style>
+        .range-slider {
+          -webkit-appearance: none;
+          width: 100%;
+          height: 1px;
+          background: #fbbf24; /* Tailwind yellow-500 */
+          outline: none;
+          opacity: 0.9;
+          transition: opacity .15s ease-in-out;
+          position: absolute;
+          pointer-events: none;
+        }
+    
+        .range-slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 15px;
+          height: 15px;
+          background: #fbbf24; /* Tailwind yellow-500 */
+          cursor: pointer;
+          border-radius: 50%;
+          pointer-events: all;
+          position: relative;
+        }
+    
+        .range-slider::-moz-range-thumb {
+            width: 15px;
+            height: 15px;
+          background: #fbbf24; /* Tailwind yellow-500 */
+          cursor: pointer;
+          border-radius: 50%;
+          pointer-events: all;
+          position: relative;
+        }
+      </style>
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 

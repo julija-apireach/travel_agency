@@ -4,10 +4,12 @@
         <div class="hidden md:flex flex-col md:gap-8 md:px-8 lg:px-12 xl:px-64 md:py-8 lg:py-12">
             <h3 class="text-base md:text-2xl lg:text-4xl font-medium md:font-normal">Kruīzi</h3>
             <div class="md:grid grid-cols-3 gap-4">
-                <!--Filts-->
+                
+                <!--Filtrs-->
                 <div class="col-span-1">
-                    <h3 class="text-4xl">FILTRS</h3>
+                    <livewire:filtrs />
                 </div>
+
                 <!--Boxes-->
                 <div class="col-span-2">
                     <div class="flex flex-col gap-5">
