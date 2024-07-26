@@ -87,8 +87,8 @@ Route::post('/login', [AgencyUserController::class, 'authenticate'])
 
 //test for middleware on profile page - click on Mana rezervacija
 Route::get('/mana-rezervacija', function () {
-    return view('profile');
-    })->name('mana-rezervacija')->middleware('isAuth');
+    return view('livewire/reservation');
+    })->name('mana-rezervacija');//->middleware('isAuth');
 
 
 
